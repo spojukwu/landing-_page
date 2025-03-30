@@ -69,9 +69,26 @@ body {
     text-decoration: underline;  
 }  
 
-/* Responsive Styles  
+Responsive Styles  
 @media (max-width: 768px) {  
     .features-container {  
         flex-direction: column;  
     }  
-}   */
+}  
+
+.navbar {
+background-color:rgb(132, 132, 153);
+padding: 2%;
+margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.top-menu {
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
